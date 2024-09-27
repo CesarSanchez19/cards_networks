@@ -1,19 +1,19 @@
-### Descripción del Proyecto.
+### Project Description
 
-Este sitio web muestra una variedad de protocolos de enrutamiento dinámico que se utilizan en redes de computadoras. Utiliza un diseño atractivo y moderno que incluya artículos que describan cada protocolo y imágenes relevantes. La estructura de las páginas está organizada en forma de tarjetas, lo que hace que sea más fácil buscar información. Cada tarjeta contiene un título, una breve descripción del protocolo y un enlace para leer más, lo que facilita el acceso a contenido adicional.
+This website showcases a variety of dynamic routing protocols used in computer networks. It features an attractive and modern design that includes articles describing each protocol and relevant images. The structure of the pages is organized in a card format, making it easier to search for information. Each card contains a title, a brief description of the protocol, and a link to read more, facilitating access to additional content.
 
-#### Estructura y Diseño.
+#### Structure and Design
 
-La página web está organizada en forma de **tarjetas**, cada una de las cuales representa un protocolo de enrutamiento particular. Esto no solo facilita la visualización de la información, sino que también facilita la navegación al hacer clic en las tarjetas para explorar más detalles. Cada tarjeta contiene:
+The website is organized in **cards**, each representing a specific routing protocol. This not only makes it easier to visualize the information but also simplifies navigation by allowing users to click on the cards to explore further details. Each card contains:
 
-- **Título del Protocolo**: Un encabezado claro que identifica el protocolo de enrutamiento.
-- **Descripción Breve**: un breve resumen que explica la función y las características del protocolo, ayudando a cualquier usuario a comprender su propósito y aplicación rápidamente.
-- **Imagen Representativa**: una imagen visual que se incluye junto con la descripción, lo que ayuda a contextualizar la información y la hace más atractiva.
-- **Enlace a Más Información**: Cada tarjeta tiene un enlace que lleva a recursos adicionales, lo que permite a cualquier usuario investigar el tema si desean más información.
+- **Protocol Title**: A clear heading that identifies the routing protocol.
+- **Brief Description**: A short summary explaining the function and features of the protocol, helping any user quickly understand its purpose and application.
+- **Representative Image**: A visual image included alongside the description, which helps contextualize the information and makes it more engaging.
+- **Link to More Information**: Each card has a link that leads to additional resources, allowing any user to research the topic if they want more information.
 
-#### Tecnologías Utilizadas.
+#### Technologies Used
 
-La página se construye utilizando **HTML** para la estructura básica, **CSS** para el estilo y el diseño visual, y se basa en el diseño responsivo para garantizar que la interfaz sea accesible tanto en dispositivos de escritorio como móviles. Otras características de **CSS** que permiten una disposición dinámica de los elementos en la página.
+The page is built using **HTML** for the basic structure, **CSS** for styling and visual design, and it relies on responsive design to ensure that the interface is accessible on both desktop and mobile devices. Other **CSS** features enable a dynamic layout of the elements on the page.
 
-- **HTML**: proporciona la estructura de la página y organiza el contenido de manera semántica.
-- **CSS**: Utiliza variables de color y estilo personalizadas, lo que facilita la gestión y el mantenimiento del diseño visual.
+- **HTML**: Provides the structure of the page and organizes the content semantically.
+- **CSS**: Utilizes custom color and style variables, making it easier to manage and maintain the visual design.
