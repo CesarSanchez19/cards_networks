@@ -1,0 +1,101 @@
+:root {
+    /* Define colores que se pueden usar en todo el documento */
+    --primary: rgb(18, 29, 131); /* Color principal, un tono de azul oscuro */
+    --secondary: rgb(28, 1, 44); /* Color secundario, un tono de burdeos */
+}
+
+* {
+    /* Aplica estilos a todos los elementos de la página */
+    margin: 0; /* Elimina el espacio alrededor de los elementos */
+    padding: 0; /* Elimina el espacio interno de los elementos */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total del elemento */
+}
+
+body {
+    /* Estilo para el fondo de toda la página */
+    background-color: var(--secondary); /* Establece el color de fondo usando el color secundario */
+}
+
+.background {
+    /* Contenedor principal que tiene un fondo */
+    width: 100; /* Debería tener una unidad como %, px, etc. para funcionar correctamente */
+    display: flex; /* Usa flexbox para organizar los elementos dentro de este contenedor */
+    justify-content: center; /* Centra los elementos en la línea horizontal */
+    align-items: start; /* Alinea los elementos al inicio de la línea vertical */
+    padding: 80px 32px; /* Aplica espacio de 80px arriba y abajo, y 32px a los lados */
+}
+
+.articles {
+    /* Contenedor para los artículos */
+    display: flex; /* Usa flexbox para organizar los artículos en fila */
+    flex-wrap: wrap; /* Permite que los artículos se envuelvan a la siguiente línea si no caben en la fila */
+    margin: 0 auto; /* Centra el contenedor de artículos horizontalmente */
+    justify-content: center; /* Centra los artículos en el contenedor */
+    max-width: 1200px; /* Establece un ancho máximo para el contenedor de artículos */
+    gap: 24px; /* Espacio entre cada artículo */
+}
+
+.articles article {
+    /* Estilo para cada artículo individual */
+    max-width: 320px; /* Establece un ancho máximo para cada artículo */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasa sobre el artículo */
+    display: block; /* Muestra cada artículo como un bloque separado */
+    transition: all 0.4s ease-in-out; /* Hace que los cambios en el artículo se animen suavemente */
+    overflow: hidden; /* Oculta cualquier contenido que sobrepase el área del artículo */
+    border-radius: 16px; /* Redondea las esquinas del artículo para que se vean más suaves */
+}
+
+.articles article a {
+    /* Estilo para los enlaces dentro de los artículos */
+    display: inline-flex; /* Usa flexbox para alinear el contenido dentro del enlace */
+    color: var(--primary); /* Establece el color del texto usando el color primario */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.articles article h2 {
+    /* Estilo para los títulos de los artículos */
+    margin: 0 0 18px 0; /* Aplica un margen de 0 arriba, 0 a los lados y 18px abajo */
+    font-size: 1.6rem; /* Establece un tamaño de fuente grande para el título */
+    color: var(--secondary); /* Establece el color del texto usando el color secundario */
+    transition: color 0.3s ease-out; /* Hace que el cambio de color se anime suavemente */
+}
+
+.articles article img {
+    /* Estilo para las imágenes dentro de los artículos */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    transform-origin: center; /* Hace que las transformaciones de la imagen se realicen desde el centro */
+    transition: transform 0.4s ease-in-out; /* Hace que el cambio en el tamaño de la imagen se anime suavemente */
+}
+
+.article-preview {
+    /* Estilo para la parte que muestra un resumen del artículo */
+    padding: 24px; /* Aplica un espacio interno de 24px */
+    background: white; /* Establece un fondo blanco para la vista previa */
+}
+
+.articles figure {
+    /* Estilo para el contenedor de la imagen del artículo */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    height: 200px; /* Establece una altura fija de 200px para la figura */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+}
+
+.articles figure img {
+    /* Estilo para las imágenes dentro de la figura */
+    height: 100%; /* Hace que la imagen ocupe toda la altura del contenedor */
+    aspect-ratio: 16/9; /* Mantiene una relación de aspecto de 16:9 para la imagen */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga */
+    object-fit: cover; /* Hace que la imagen cubra todo el contenedor manteniendo su relación de aspecto */
+}
+
+.articles article:hover img {
+    /* Efectos visuales cuando el cursor pasa sobre el artículo */
+    transform: scale(1.5); /* Aumenta el tamaño de la imagen al 150% */
+}
+
+.title {
+    /* Estilo para el título principal de la página */
+    text-align: center; /* Centra el texto en el medio */
+    color: aliceblue; /* Establece el color del texto a un tono claro de azul */
+    margin: 40px; /* Aplica un margen (espacio entre los elementos) de 40px alrededor del título */
+}
